@@ -1,0 +1,183 @@
+*{
+  box-sizing: border-box;
+  margin:0;
+}
+
+body{
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+  background-image: url(https://www.nationalonlineinsuranceschool.com/insurance-license-blog/wp-content/uploads/2012/11/Insurance-Education-Techniques.jpg);
+  background-size: cover;
+}
+
+li {
+  float: left;
+}
+
+a {
+  display: block;
+  padding: 9px;
+}
+
+
+ul {
+  list-style-type: none;
+  margin:0;
+  padding:0;
+  overflow: hidden;
+  background-color:rgba(39, 126, 97, 0.5);
+}
+
+li {
+  float:right;
+}
+
+li a {
+  display: block;
+  text-align: center;
+  padding: 20px 20px;
+  margin-left:80px ;
+  color:black;
+  background-color: rgb(118, 248, 188);
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: rgb(196, 209, 204);}
+/*.load{
+  display: flex;
+  justify-content: center;
+  margin: 50px auto;
+
+}
+.load div{
+  width:50px;
+  height:50px;
+  background-color:rgb(117, 209, 181) ;
+  border-radius: 50%;
+  margin: 0 5px;
+  animation-name: up-and-down;
+  animation-duration: 0.7s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+
+}
+.load .tow{
+  animation-delay:0.3s;
+}
+.load .three{
+  animation-delay: 0.6s;
+}
+
+@keyframes up-and-down{
+  to {
+    opacity: 0.2;
+    transform: translateY(-20px);
+  }*/
+
+form{
+  position: absolute;
+  top:20%;
+  left:39%;
+  transform: translate(-50%-50%);
+  width:350px;
+  height:450px;
+  background:rgba(0, 0,0, .5);
+  border-radius: 15px;
+  box-sizing: border-box;
+  box-shadow: 0 0 20px rgb(53, 201, 115); 
+  
+}
+.form:hover{
+  box-shadow: 0 0 20px rgb(149, 201, 53);  ;
+}
+h2{
+  color:#fff;
+  text-align:center;
+  margin-top: 90px;
+  font-size: 20px;
+  font-weight: bold;
+}
+h2:hover{
+  color:rgb(117, 209, 181) ;
+}
+input[type="text"],[type="password"]{
+  position:absolute;
+  outline:none;
+  border:none;
+  width:250px;
+  height: 30px;
+  border-bottom:2px solid rgb(117, 209, 181) ;
+  background:none;
+  padding:5px;
+  color:#fff;
+}
+input[type="text"]{
+  top:140px;
+  left:50px;
+}
+[type="password"]{
+  top:240px;
+  left:50px;
+}
+::placeholder{
+  color:#fff;
+}
+input[value="login"]{
+  position: absolute;
+  top:305px;
+  left:110px;
+  width:130px;
+  height: 35px;
+  background:rgb(117, 209, 181) ;
+  border-radius: 15px;
+  font-size: 12px;
+}
+input[value="login"]:hover{
+  background:#fff;
+  color:rgb(117, 209, 181) ;
+}
+p{
+  position: absolute;
+  top:360px;
+  left:50px;
+  color:rgb(245, 245, 245);
+  cursor:pointer;
+ 
+}
+
+p:hover{
+color:#72c9ff;
+}
+.load{
+  display: flex;
+  justify-content: center;
+  margin: 50px auto;
+
+}
+.load div{
+  width:50px;
+  height:50px;
+  background-color:rgb(117, 209, 181) ;
+  border-radius: 50%;
+  margin-top:500px;
+  animation-name: up-and-down;
+  animation-duration: 0.7s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+
+}
+.load .tow{
+  animation-delay:0.3s;
+}
+.load .three{
+  animation-delay: 0.6s;
+}
+
+@keyframes up-and-down{
+  to {
+    opacity: 0.2;
+    transform: translateY(-20px);
+  }
